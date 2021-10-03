@@ -1,12 +1,13 @@
 <template>
-  <router-link class="gallery-link md:w-1/4 px-4 mb-8" to="/gallery/one">
-    <img class="rounded shadow-md" :src="image" alt="hello world gif">
-    <h3 class="mt-6 text-sm text-gray-500">
-      <span class="absolute inset-0"></span>
-      Interaction
-    </h3>
-    <p class="text-base font-semibold text-gray-900">Hello World</p>
-  </router-link>  
+  <div class="gallery-link md:w-1/4 px-4 mb-8">
+    <router-link :to="link">
+      <img class="rounded shadow-md" :src="image" alt="hello world gif">
+      <h3 class="mt-6 text-sm text-gray-500">
+        {{ tag }}
+      </h3>
+      <p class="text-base font-semibold text-gray-900">{{ title }}</p>
+    </router-link>
+  </div>  
 </template>
 
 <script>
@@ -41,7 +42,7 @@ export default {
     transform: scale(1.05);
     transition: 0.3s;
   }
-  .gallery-link:hover > img {
+  .gallery-link:hover img {
     @apply shadow-2xl
   }
 </style>

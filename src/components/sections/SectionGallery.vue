@@ -1,6 +1,6 @@
 <template>
   <section class="py-20">
-  <h1 class="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl">
+  <h1 class="text-4xl font font-extrabold  text-gray-900 sm:text-6xl">
     🖼 Introduce you to my gallery
   </h1>
   <p class="mt-4 mb-16 text-xl text-gray-500">
