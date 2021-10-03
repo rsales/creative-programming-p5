@@ -91,29 +91,7 @@
   </div>
 
   <div id="show-gallery" class="container relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
-    <section class="py-20">
-      <h1 class="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl">
-        Introduce you to my gallery
-      </h1>
-      <p class="mt-4 mb-16 text-xl text-gray-500">
-        Feel free or check out each link and experience in a unique way each page.
-      </p>
-
-      <div class="flex flex-wrap -mx-4 -mb-8">
-        <router-link class="gallery-link md:w-1/4 px-4 mb-8" to="/gallery/one">
-          <img class="rounded shadow-md" src="../assets/images/one-draw.gif" alt="hello world gif">
-        </router-link>
-        <router-link class="gallery-link md:w-1/4 px-4 mb-8" to="/gallery/one">
-          <img class="rounded shadow-md" src="../assets/images/one-draw.gif" alt="hello world gif">
-        </router-link>
-        <router-link class="gallery-link md:w-1/4 px-4 mb-8" to="/gallery/one">
-          <img class="rounded shadow-md" src="../assets/images/one-draw.gif" alt="hello world gif">
-        </router-link>
-        <router-link class="gallery-link md:w-1/4 px-4 mb-8" to="/gallery/one">
-          <img class="rounded shadow-md" src="../assets/images/one-draw.gif" alt="hello world gif">
-        </router-link>
-      </div>
-    </section>
+    <SectionGallery />
   </div>
 
   <!-- This example requires Tailwind CSS v2.0+ -->
@@ -146,15 +124,12 @@
 }
 </route>
 
-<style>
-  .gallery-link {
-    transition: 0.3s;
+<script>
+  import SectionGallery from "../components/sections/SectionGallery.vue";
+
+  export default {
+    components: {
+      SectionGallery,
+    }
   }
-  .gallery-link:hover {
-    transform: scale(1.05);
-    transition: 0.3s;
-  }
-  .gallery-link:hover > img {
-    @apply shadow-2xl
-  }
-</style>
+</script>
