@@ -6,7 +6,7 @@
 import P5 from 'p5'
 
 export default {
-  name: 'One',
+  name: 'DrawerOne',
   components: {
     P5
   },

@@ -35,7 +35,7 @@ export default {
           title: 'Hello World',
         },
         {
-          link: '/gallery/one',
+          link: '/gallery/two',
           tag: 'Interaction',
           imgUrl: new URL('../../assets/images/one-draw.gif', import.meta.url).href,
           title: 'Hello World',
