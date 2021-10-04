@@ -13,7 +13,7 @@
       :link="art.link" 
       :tag="art.tag" 
       :image="art.imgUrl"
-      title="Hello World"
+      :title="art.title"
       :key="`art-${index}`" 
     />
   </div>
@@ -28,24 +28,6 @@ export default {
   data() {
     return {
       gallery: [
-        {
-          link: '/gallery/one',
-          tag: 'Interaction',
-          imgUrl: new URL('../../assets/images/one-draw.gif', import.meta.url).href,
-          title: 'Hello World',
-        },
-        {
-          link: '/gallery/two',
-          tag: 'Interaction',
-          imgUrl: new URL('../../assets/images/one-draw.gif', import.meta.url).href,
-          title: 'Hello World',
-        },
-        {
-          link: '/gallery/one',
-          tag: 'Interaction',
-          imgUrl: new URL('../../assets/images/one-draw.gif', import.meta.url).href,
-          title: 'Hello World',
-        },
         {
           link: '/gallery/one',
           tag: 'Interaction',
