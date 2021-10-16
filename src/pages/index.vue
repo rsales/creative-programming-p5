@@ -47,7 +47,7 @@
               </div>
             </div>
 
-            <a href="#show-gallery" class="inline-block text-center bg-yellow-400 border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-yellow-500">Inspire my mind!</a>
+            <a href="#show-gallery" class="inline-block text-center bg-white border border-black rounded-md py-3 px-8 font-medium hover:text-white hover:bg-black">Inspire my mind!</a>
           </div>
         </div>
       </div>
@@ -67,12 +67,12 @@
       </h2>
       <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
         <div class="inline-flex rounded-md shadow">
-          <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-400 hover:bg-yellow-500">
+          <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-black hover:opacity-90">
             Get started
           </a>
         </div>
         <div class="ml-3 inline-flex rounded-md shadow">
-          <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-yellow-400 bg-white hover:bg-yellow-50">
+          <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-black text-base font-medium rounded-md text-black bg-white hover:text-white hover:bg-black">
             Learn more
           </a>
         </div>

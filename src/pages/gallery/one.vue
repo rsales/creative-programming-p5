@@ -1,14 +1,17 @@
 <template>
-  <div id="canvas"></div>
+  <ReturnPage/>
+  <div id="canvas" style="z-index: -1;"></div>
 </template>
 
 <script>
 import P5 from 'p5'
+import ReturnPage from '../../components/return/ReturnPage.vue'
 
 export default {
   name: 'DrawerOne',
   components: {
-    P5
+    P5,
+    ReturnPage
   },
   mounted() {
     const script = p5 => {
