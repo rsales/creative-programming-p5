@@ -25,7 +25,7 @@
                       <img src="../assets/images/one-screenshot.png" alt="" class="w-full h-full object-center object-cover">
                     </div>
                     <div class="w-72 h-44 rounded-lg overflow-hidden">
-                      <img src="../assets/images/one-screenshot.png" alt="" class="w-full h-full object-center object-cover">
+                      <img src="../assets/images/two-screenshot.png" alt="" class="w-full h-full object-center object-cover">
                     </div>
                   </div>
                   <div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
@@ -39,14 +39,6 @@
                       <img src="../assets/images/one-screenshot.png" alt="" class="w-full h-full object-center object-cover">
                     </div>
                   </div>
-                  <!-- <div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                    <div class="w-72 h-44 rounded-lg overflow-hidden">
-                      <img src="../assets/images/one-screenshot.png" alt="" class="w-full h-full object-center object-cover">
-                    </div>
-                    <div class="w-72 h-44 rounded-lg overflow-hidden">
-                      <img src="../assets/images/one-screenshot.png" alt="" class="w-full h-full object-center object-cover">
-                    </div>
-                  </div> -->
                 </div>
               </div>
             </div>

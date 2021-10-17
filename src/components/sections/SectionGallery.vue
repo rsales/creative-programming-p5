@@ -39,6 +39,16 @@ export default {
             mobile: false
           }
         },
+        {
+          link: '/gallery/two',
+          tag: 'Animation',
+          imgUrl: new URL('../../assets/images/two-draw.gif', import.meta.url).href,
+          title: '3D Elements',
+          disponibility: {
+            desktop: true,
+            mobile: true
+          }
+        },
       ]
     }
   },
