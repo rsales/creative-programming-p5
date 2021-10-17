@@ -1,6 +1,9 @@
 <template>
   <NotificationGlobal />
   <div class="relative bg-white overflow-hidden">
+    <div class="relative top-0 left-0 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <img src="../assets/images/sticker.png" alt="brand">
+    </div>
     <div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
         <div class="sm:max-w-lg">
