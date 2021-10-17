@@ -14,6 +14,7 @@
       :tag="art.tag" 
       :image="art.imgUrl"
       :title="art.title"
+      :disponibility="art.disponibility"
       :key="`art-${index}`" 
     />
   </div>
@@ -33,6 +34,10 @@ export default {
           tag: 'Interaction',
           imgUrl: new URL('../../assets/images/one-draw.gif', import.meta.url).href,
           title: 'Hello World',
+          disponibility: {
+            desktop: true,
+            mobile: false
+          }
         },
       ]
     }
