@@ -14,6 +14,8 @@ export default {
     ReturnPage
   },
   mounted() {
+    document.querySelector("#canvas > canvas").remove();
+    
     const script = p5 => {
       // These are your typical setup() and draw() methods
       p5.setup = () => {
