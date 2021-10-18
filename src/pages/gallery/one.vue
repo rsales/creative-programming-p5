@@ -13,10 +13,12 @@ export default {
     P5,
     ReturnPage
   },
-  onBeforeMount() {
-    document.querySelector("#canvas > canvas").remove();
-  },
   mounted() {
+    let canvasInPage = document.querySelectorAll("#canvas > canvas");
+    console.log(canvasInPage.length);
+    if(canvasInPage.lengt >= 2) {
+      canvasInPage[0].remove();
+    }
     const script = p5 => {
       // These are your typical setup() and draw() methods
       p5.setup = () => {
