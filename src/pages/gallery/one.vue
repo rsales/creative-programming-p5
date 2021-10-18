@@ -44,7 +44,7 @@ export default {
     // Correction bug, inject two canvas.
     let canvasInPage = document.querySelectorAll("#canvas > canvas");
 
-    if(canvasInPage.length = 2) {
+    if(canvasInPage.length === 2) {
       canvasInPage[0].remove();
     }
   }
