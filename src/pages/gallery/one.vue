@@ -43,8 +43,8 @@ export default {
 
     // Correction bug, inject two canvas.
     let canvasInPage = document.querySelectorAll("#canvas > canvas");
-    console.log(canvasInPage.length);
-    if(canvasInPage.lengt >= 2) {
+
+    if(canvasInPage.lengt = 2) {
       canvasInPage[0].remove();
     }
   }
