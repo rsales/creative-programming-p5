@@ -74,6 +74,12 @@ export default {
     }
     // Attach the canvas to the div
     const p5canvas = new P5(script, 'canvas');
+
+    // Correction bug, inject two canvas.
+    let canvasInPage = document.querySelectorAll("#canvas > canvas");
+    if(canvasInPage.length === 2) {
+      canvasInPage[0].remove();
+    }
   }
 }
 </script>
